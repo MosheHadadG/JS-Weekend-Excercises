@@ -7,10 +7,7 @@ const filter = function(array, callback) {
 		if (callback(value, index)) {
 			newArray.push(value);
 		} 
-    else {
-			continue;
-		}
-	}
+ }
 }
 
 // forEach
@@ -31,3 +28,4 @@ const map = function(array, callback){
 		newArray.push(callback(value, index));
  }
 }
+
